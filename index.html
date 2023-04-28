@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea1</title>
+  </head>
+    <script src="java.js"></script>
+    
+  <body style="background-color: rgb(212, 213, 230);">
+    <h1 style="color: rgb(6, 47, 5); text-align: center;">!Hola Profe!</h1>
+    <h2 ><u>Javascript: Tarea 1</u></h2>
+                          <!--Ejercicio 1-->
+      <p> 1) Realizar una función que reciba un número y escriba una pirámide desde 1 hasta ese número:</p>
+      <button id="mostrar1" onclick="mostrar1()" >Mostrar</button>
+      <button id="ocultar1" onclick="ocultar1()" >Ocultar</button>
+
+  <div id="ejercicio1" style="background-color:rgb(147, 212, 147); display: none;">
+        <label>Ingrese un número entero mayor a cero</label>
+        <input type="number" id="valorIngresado" pattern="[0-9]" size="15px" step=1 placeholder="la fracción se redondean" required>
+        <button onclick="piramide()">Armar Pirámide</button>
+        <p id="error" style="color:red; text-align: center; font-size: x-large;"></p>
+        <p id="resultado"></p>
+  </div>  
+                        <!--Ejercicio 2-->
+    <p> 2) Escribir una función que reciba 2 arrays y devuelva un array con todos los elementos que coinciden entre ellos:</p>
+    <button id="mostrar2" onclick="mostrar2()">Mostrar</button>
+    <button id="ocultar2" onclick="ocultar2()" >Ocultar</button>
+
+  <div id="ejercicio2" style="background-color:rgb(203, 155, 225); display: none;">
+    <label>Ingrese los elementos del primer array:</label>
+      <br>
+    <input class="array1"><input class="array1"><input class="array1"><input class="array1"><input class="array1"><input class="array1"><input class="array1">
+    <button onclick="mosAr1()">Mostrar Lista 1</button>
+      <br>
+    <label>Ingrese los elementos del segundo array:</label>
+      <br>
+    <input class="array2"><input class="array2"><input class="array2"><input class="array2"><input class="array2"><input class="array2"><input class="array2">
+    <button onclick="mosAr2()">Mostrar Lista 2</button>
+      <br>
+      <br>
+    <p id="mosNewAr1"></p>
+
+  <div style= "display:flex;flex-direction:column-reverse;flex-wrap:wrap,align-content:stretch; justify-content:space-evenly;align-items:center;">
+    <p id="coinciden" style=" color:red;"></p>
+    <button onclick="lisIguales()">Buscar coincidencias</button>
+  </div>
+
+    <p id="mosNewAr2"></p>
+  </div>
+
+    <p>3)</p>         <!--Ejercicio 3-->
+    <button id="mostrar3" onclick="mostrar3()">Mostrar</button>
+    <button id="ocultar3" onclick="ocultar3()" >Ocultar</button>
+
+  <div id="ejercicio3" style="background-color:rgb(211, 211, 113); display: none;" >
+    <p> 3.1) Crear las clases necesarias para generar carritos respetando la    estructura del objeto dado:</p>
+    <br>
+    <p>  3.2) Agregar un método a la clase que agregue un producto al carrito y actualice el monto total:</p>
+    <br>
+    </p> 3.3)Agregar al ejercicio anterior una validación para no permitir duplicados e imprimir un mensaje si el item ya existe "ya existe el producto xxx"</p>
+  </div>
+  <h3 style="color: rgba(10, 69, 2, 0.867) ;">Lamento no haber llegado con el tiempo para seguir este ejercicio por html como los dos anteriores. Pido disculpas y pueden verlo directamente en consola (spoiler: tiene muchos comentarios). Saludos.</h3>
+
+
+
+
+  </body>
+</html>
+   
